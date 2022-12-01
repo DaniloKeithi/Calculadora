@@ -4,16 +4,17 @@
 }
 
 .fundo{
-    background-image: linear-gradient(45deg, black, crimson);
+    background: url("../img/52521811293_f3ef8fbfb3_k.jpg") center center no-repeat;
     height: 100vh;
     color: white;
-    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-family: 'Press Start 2P', cursive;
     text-align: center;
+    font-size: 10px;
 }
 
 .calculadora{
     position: absolute;
-    background-color: black;
+    background-color: rgb(255, 217, 0);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -27,7 +28,7 @@
     font-size: 25px;
     margin: 3px;
     cursor: pointer;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(66, 165, 0);
     border: none;
     color: white;
 }
